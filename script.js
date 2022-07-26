@@ -1,5 +1,6 @@
 function display(val){
     document.getElementById('result').value += val
+    solve()
     return val
 }
 
@@ -25,7 +26,5 @@ function backSpace() {
 }
 
 function clearScreen(){
-
     document.getElementById('result').value = ''
-
 }
